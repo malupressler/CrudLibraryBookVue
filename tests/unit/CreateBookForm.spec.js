@@ -35,7 +35,7 @@ describe("Unit Test for CreateBookForm", () => {
   });
   test("Should render entrace Data input", () => {
     const wrapper = shallowMount(CreateBookModal, configMount);
-    const Entrace_date = wrapper.find("#entrace_date");
+    const Entrace_date = wrapper.find("#entraceDate");
     expect(Entrace_date.exists()).toBe(true);
   });
   test("Should render status text input", () => {
@@ -43,14 +43,14 @@ describe("Unit Test for CreateBookForm", () => {
     const Status = wrapper.find("#status");
     expect(Status.exists()).toBe(true);
   });
-  test("Should render end Data input", () => {
+  test("Should render Conclusion Data input", () => {
     const wrapper = shallowMount(CreateBookModal, configMount);
-    const Finish_date = wrapper.find("#finish_date");
+    const Finish_date = wrapper.find("#finishDate");
     expect(Finish_date.exists()).toBe(true);
   });
   test("Should render score number input", () => {
     const wrapper = shallowMount(CreateBookModal, configMount);
-    const Score = wrapper.find("#score2");
+    const Score = wrapper.find("#score");
     expect(Score.exists()).toBe(true);
   });
 });

@@ -3,6 +3,7 @@
     <cv-dropdown
       :placeholder="'Select Status'"
       :label="'Status'"
+      id="status"
       v-model="Book.status"
     >
       <cv-dropdown-item
@@ -51,7 +52,7 @@
       :step="0.5"
       :max="5"
       :min="0"
-      id="score2"
+      id="score"
       placeholder="score"
       v-model="Book.score"
     />

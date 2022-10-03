@@ -34,7 +34,7 @@ describe("Unit Test for CreateBookForm", () => {
   });
   test("Should render entrace Data input", () => {
     const wrapper = shallowMount(EditBookForm, configMount);
-    const Entrace_date = wrapper.find("#entrace_date");
+    const Entrace_date = wrapper.find("#entraceDate");
     expect(Entrace_date.exists()).toBe(true);
   });
   test("Should render status text input", () => {
@@ -44,7 +44,7 @@ describe("Unit Test for CreateBookForm", () => {
   });
   test("Should render end Data input", () => {
     const wrapper = shallowMount(EditBookForm, configMount);
-    const Finish_date = wrapper.find("#finish_date");
+    const Finish_date = wrapper.find("#finishDate");
     expect(Finish_date.exists()).toBe(true);
   });
   test("Should render score number input", () => {
