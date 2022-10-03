@@ -1,5 +1,5 @@
 ## Library Book VUE APP
-<img src="https://img.shields.io/badge/Language-Javascript-blue"/> <img src="https://img.shields.io/badge/Language-Vue-brightgreen"/>
+<img src="https://img.shields.io/badge/Language-Javascript-blue"/> <img src="https://img.shields.io/badge/Language-Vue-brightgreen"/> <img src="https://img.shields.io/badge/Language-Jest-brightgreen"/>
 <p align="center">Application to help to save your own library which, you can have the Read, Reading and Want to Read books, beeing possible to add title, author, score, date that you initiated the book or have putted into your library, and also the date that you finished them.</p>
   
 ## Installation
@@ -12,7 +12,7 @@
   <p>npm run test:unit</p>
   Run the application 
   <p>npm run dev</p>
-  For a better experience you can use the API made to this application <a href="">ApiBookLibrary</a>
+  For a better experience you can use the API made to this application <a href="https://github.com/malupressler/APIBookLibrary">ApiBookLibrary</a>
 
 ### Features
 
